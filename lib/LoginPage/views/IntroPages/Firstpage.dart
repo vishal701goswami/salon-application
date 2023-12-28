@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class Loginmain extends StatefulWidget {
-  const Loginmain({super.key});
+class FirstPage extends StatefulWidget {
+  const FirstPage({super.key});
 
   @override
-  State<Loginmain> createState() => _LoginmainState();
+  State<FirstPage> createState() => _FirstPageState();
 }
 
-class _LoginmainState extends State<Loginmain> {
+class _FirstPageState extends State<FirstPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
