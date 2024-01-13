@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class FirstPage extends StatefulWidget {
-  const FirstPage({super.key});
+class SecondPage extends StatefulWidget {
+  const SecondPage({super.key});
 
   @override
-  State<FirstPage> createState() => _FirstPageState();
+  State<SecondPage> createState() => _SecondPageState();
 }
 
-class _FirstPageState extends State<FirstPage> {
+class _SecondPageState extends State<SecondPage> {
   final PageController _pageController = PageController();
   @override
   Widget build(BuildContext context) {
@@ -34,7 +34,7 @@ class _FirstPageState extends State<FirstPage> {
                       left: 20,
                     ),
                     child: Text(
-                        "Your Style, Your Way Seamless Search for Barbers and Salons—Right in Your Hands!",
+                        "Your Style, Your Speed: Quick Bookings for Your Barber and Salon!",
                         textAlign: TextAlign.center,
                         style: GoogleFonts.notoSansThaiLooped(
                             color: Colors.white,
@@ -48,7 +48,7 @@ class _FirstPageState extends State<FirstPage> {
                   //   onTap: () {
                   //     if (_pageController.hasClients) {
                   //       _pageController.nextPage(
-                  //         duration: const Duration(seconds: 1),
+                  //         duration: Duration(seconds: 1),
                   //         curve: Curves.easeIn,
                   //       );
                   //     }
