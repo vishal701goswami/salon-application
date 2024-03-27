@@ -10,7 +10,6 @@ class ThirdPage extends StatefulWidget {
 
 class _ThirdPageState extends State<ThirdPage> {
   final PageController _pageController = PageController();
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
